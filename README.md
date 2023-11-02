@@ -45,13 +45,18 @@ Ensure MySQL is running on port 3306.
 
 ## Application Configuration
 Clone the repository to your local machine.
+
 Open the application.properties file located in the src/main/resources directory.
+
 Update the following properties with your MySQL credentials:
+
 spring.datasource.username: Your MySQL username.
+
 spring.datasource.password: Your MySQL password.
 
 ## Build and Run
 Navigate to the root directory of the project where the pom.xml file is located.
+
 Run the following command to build the project: mvn clean install
 
 Once the build is successful, run the application with: mvn spring-boot:run
