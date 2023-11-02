@@ -26,7 +26,43 @@ A personalized section where users can view and manage their own book collection
 
 ## Edit Book
 Users are able to edit any book according to it's preferences.
+
 ![EditBookPNG](https://github.com/GukaGul/BookStoreManagmentSystem/assets/121638498/09c19af1-0c23-4fe6-9c4f-478ff1fbfa75)
+
+
+# Documentation
+
+## Prerequisites
+Java 17
+MySQL Server
+Maven (For dependency management and running the application)
+
+# Setup
+## Database Configuration
+Install MySQL if it is not already installed.
+Create a database named book.
+Ensure MySQL is running on port 3306.
+
+## Application Configuration
+Clone the repository to your local machine.
+Open the application.properties file located in the src/main/resources directory.
+Update the following properties with your MySQL credentials:
+spring.datasource.username: Your MySQL username.
+spring.datasource.password: Your MySQL password.
+
+## Build and Run
+Navigate to the root directory of the project where the pom.xml file is located.
+Run the following command to build the project: mvn clean install
+
+Once the build is successful, run the application with: mvn spring-boot:run
+
+The application will start on port 1001. You can access it at http://localhost:1001.
+
+
+
+
+
+
 
 
 
