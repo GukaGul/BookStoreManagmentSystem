@@ -67,7 +67,7 @@ Once the build is successful, run the application with: mvn spring-boot:run
 
 The application will start on port 1001. You can access it at http://localhost:1001.
 
-# Dephendencies Used
+# Dependencies Used
 Spring Web
 
 Thymeleaf
