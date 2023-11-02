@@ -42,7 +42,9 @@ Maven (For dependency management and running the application)
 # Setup
 ## Database Configuration
 Install MySQL if it is not already installed.
+
 Create a database named book.
+
 Ensure MySQL is running on port 3306.
 
 ## Application Configuration
